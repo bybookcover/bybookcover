@@ -2,24 +2,25 @@
   <div id="app">
 
     <TopBar></TopBar>
-        <Home></Home>
+   
     <Glide></Glide>
+         <Detail></Detail>
     <Footer></Footer>
   </div>
 </template>
 
 <script>
-import Home from '@/components/Home'
 import TopBar from '@/components/TopBar.vue'
 import Glide from './components/Glide.vue'
 import Footer from './components/Footer.vue'
+import Detail from './components/Detail.vue'
 export default {
   name: 'App',
   components: {
-    Home,
     TopBar,
     Glide,
-    Footer
+    Footer,
+    Detail
 }
 }
 </script>

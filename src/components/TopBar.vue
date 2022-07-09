@@ -18,7 +18,7 @@
         </b-nav-item-dropdown>
         <b-nav-item href="#">What's new</b-nav-item>
         <b-nav-item href="#">Application</b-nav-item>
-        <b-nav-item href="#">Blog</b-nav-item>
+        <!-- <b-nav-item href="#">Blog</b-nav-item> -->
         <b-nav-item href="#">Contact</b-nav-item>
       </b-navbar-nav>
 
