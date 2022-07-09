@@ -2,10 +2,11 @@
   <div id="app">
 
     <TopBar></TopBar>
-   
     <Glide></Glide>
-         <Detail></Detail>
+    <Detail></Detail>
+    <router-view></router-view>
     <Footer></Footer>
+
   </div>
 </template>
 
