@@ -10,6 +10,10 @@ import Contact from '@/pages/Contact'
 export default new VueRouter({
     routes:[
         {
+            path:'*',
+            redirect:'/home'
+        },
+        {
             path:'/home',
             component:Home
         },
@@ -20,6 +24,6 @@ export default new VueRouter({
         {
             path:'/about',
             component:About
-        },
+        }
     ]
 })

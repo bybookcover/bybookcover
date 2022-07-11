@@ -2,26 +2,20 @@
   <div id="app">
 
     <TopBar></TopBar>
-    <Glide></Glide>
-    <Detail></Detail>
     <router-view></router-view>
-    <Footer></Footer>
+    <MyFooter></MyFooter>
 
   </div>
 </template>
 
 <script>
 import TopBar from '@/components/TopBar.vue'
-import Glide from './components/Glide.vue'
-import Footer from './components/Footer.vue'
-import Detail from './components/Detail.vue'
+import MyFooter from '@/components/MyFooter.vue'
 export default {
   name: 'App',
   components: {
     TopBar,
-    Glide,
-    Footer,
-    Detail
+    MyFooter
 }
 }
 </script>

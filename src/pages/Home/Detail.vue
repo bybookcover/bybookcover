@@ -1,9 +1,5 @@
 <template>
-
 <section>
-
-
-  
   <b-container class="bv-example-row">
     <HeaderRed>PVC Coated Paper</HeaderRed>
     <b-row>
@@ -36,7 +32,7 @@
 </template>
 
 <script>
-import HeaderRed from './HeaderRed.vue'
+import HeaderRed from '@/components/HeaderRed.vue'
 export default {
     name: "Detail",
     components: { HeaderRed }

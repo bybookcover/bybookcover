@@ -1,22 +1,21 @@
 <template>
 <div>
 
-  <b-navbar toggleable="lg" type="dark" class="bg-color">
-    <b-navbar-brand href="#">Binyang Paper</b-navbar-brand>
-
+  <b-navbar toggleable="lg" type="dark" class="bg-color ">
+    <router-link class="link-a" to="/home">Binyang Paper</router-link>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-    <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav>
-        <b-nav-item href="#">About</b-nav-item>
-        <b-nav-item-dropdown text="Products" left>
+    <b-collapse class="link-a" id="nav-collapse" is-nav>
+      <b-navbar-nav >
+        <b-nav-item  href="#" >About</b-nav-item>
+        <b-nav-item-dropdown class="link-a" text="Products" left>
           <b-dropdown-item href="#">PVC coated Paper</b-dropdown-item>
           <b-dropdown-item href="#">Fabric Coated Paper</b-dropdown-item>
           <b-dropdown-item href="#">Speciality Art Paper</b-dropdown-item>
           <b-dropdown-divider></b-dropdown-divider>
           <b-dropdown-item href="#">Others</b-dropdown-item>
         </b-nav-item-dropdown>
-        <b-nav-item href="#">What's new</b-nav-item>
+        <b-nav-item><router-link class="link-a" to="/about">What's new</router-link></b-nav-item>
         <b-nav-item href="#">Application</b-nav-item>
         <!-- <b-nav-item href="#">Blog</b-nav-item> -->
         <b-nav-item href="#">Contact</b-nav-item>
@@ -58,6 +57,13 @@ export default {
 <style lang="scss" scoped>
 .bg-color{
   background-color: #17c3b2;
+}
+.link-a{
+  color: white;
+  list-style: none;
+  &:hover{
+    color: antiquewhite;
+  }
 }
 
 
