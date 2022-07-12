@@ -1,9 +1,10 @@
 <template>
-  <div >
-          <img  class="article-img" src="./images/factory.png"   alt="factory">
+<b-container>
+  <div class="p-style">
+          <div><img  class="article-img" src="./images/factory.png"   alt="factory"></div>
           <h3>Yiwu Binyang Paper Co., Ltd</h3><br>
-          <p>
-             was established in 2014, which is located in the famous International Commodity Market City Yiwu, As a window of our factory in Yiwu City, We have established the good relationship with partners form the word.
+          <p  >
+            was established in 2014, which is located in the famous International Commodity Market City Yiwu, As a window of our factory in Yiwu City, We have established the good relationship with partners form the word.
           </p> <br>
             
           <h3>PVC Binding Paper</h3> 
@@ -21,5 +22,27 @@
           <p > 
             Two production line for Fancy Paper. We expend the Fancy Paper production line in the year of 2014. For producing the different kind of Craft paper.
           </p>
-        </div>
+  </div>
+</b-container>
 </template>
+<script>
+export default {
+  name:'AboutDetail'
+}
+</script>
+<style scoped lang="scss">
+
+ .article-img{
+   width: 28vw;
+   min-width:420px;
+   margin: 10px;
+  float: left;
+ }
+ .p-style{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing:1px;
+  text-indent: 2em;
+  text-align: left;
+ }
+</style>

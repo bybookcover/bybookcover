@@ -1,14 +1,14 @@
 <template>
   <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-5">
-          <div class="thumbnail no-border">
+<b-container class="bv-example-row">
+  <b-row class="margin-set">
+    <b-col>
+        <div class="thumbnail no-border">
             <a href=""><img src="./images/pvc3.jpg" alt="PVC coated paper"></a>
-          </div>
         </div>
-        <div class="col-sm-7">
-          <div class="thumbnail no-border">
+    </b-col>
+    <b-col>         
+       <div class="thumbnail p-style no-border">
             <div class="caption indent">
               <h3 class="text-center">Certificate Cover Material</h3>
               <p>
@@ -19,33 +19,33 @@
               </p>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-7">
-          <div class="thumbnail no-border">
-            <div class="caption indent">
+    </b-col>
+  </b-row>
+  <b-row class="margin-set">
+    <b-col>
+        <div class="thumbnail p-style no-border">
+            <div class="caption  indent">
               <h3 class="text-center">Passport Cover Material</h3>
               <p > 
                 PVC binding paper has good abrasion resistance and good waterproof performance. The color is saturated and bright, not easy to fade, the paper is soft, good toughness, good tear resistance, good pullability, scratch resistance, easy to glue, easy to fit, and has the noble and texture of leather, and the price is lower than that of leather and PU.</p>
                <p> The product is suitable for the cover binding of brochures, building books, hardcover books, stamp albums, notebooks; surface binding and packaging production of various gift boxes, tea boxes, wine boxes, jewelry boxes, luggage, jewelry boxes and large handicraft boxes.</p>
             </div>
           </div>
-        </div>
-        <div class="col-sm-5">
+    </b-col>
+    <b-col>
           <div class="thumbnail no-border">
             <a href=""><img src="./images/pvc2.jpg" alt="PVC coated paper"></a>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-5">
-          <div class="thumbnail no-border">
+    </b-col>
+  </b-row>
+  <b-row class="margin-set">
+    <b-col>
+      <div class="thumbnail no-border">
             <a href=""><img src="./images/fabric3.jpg" alt="PVC coated paper"></a>
-          </div>
-        </div>
-        <div class="col-sm-7">
-          <div class="thumbnail no-border">
+      </div>
+    </b-col>
+    <b-col>
+          <div class="thumbnail p-style no-border">
             <div class="caption indent">
               <h3 class="text-center">Photo Album Cover</h3>
               <p>Originating from the Netherlands, it is made of cloth and special paper pasted. flat surface. It is suitable for all kinds of hardcover books, notepads, folders, photobooks and all kinds of noble and elegant jewelry, jewelry, perfume, watches, wine and other packaging.
@@ -56,13 +56,27 @@
                 <p>It can be directly printed with four colors, which is a new type of printing product, which has the printing applicability similar to paper.</p>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </b-col>
+  </b-row>
+</b-container>
+</section>
 </template>
 <script>
 export default{
     name:'ApplicationDetail'
 }
 </script>
+<style lang="scss" scoped>
+
+ .p-style{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing:1px;
+  text-indent: 2em;
+  text-align: left;
+ }
+ .margin-set{
+  margin-top: 15px;
+  margin-bottom: 15px;
+ }
+</style>

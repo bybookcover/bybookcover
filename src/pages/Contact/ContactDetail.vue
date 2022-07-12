@@ -2,7 +2,7 @@
 <b-container>
       <section>
     <div class="container">
-      <div class="container-fuild margin-add margin-bottom-add">
+      <div class="container-fuild margin-add p-style margin-bottom-add">
         <div class="row">
       
           <div class="col-md-6">
@@ -34,3 +34,13 @@ export default {
     name:'ContactDetail'
 }
 </script>
+<style lang="scss" scoped>
+
+ .p-style{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing:1px;
+  text-indent: 2em;
+  text-align: left;
+ }
+</style>
