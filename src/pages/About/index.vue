@@ -1,10 +1,19 @@
 <template>
 <div>
-    about
+    <Jumbo></Jumbo>
+    <b-container>
+        <HeaderRed>About US</HeaderRed>
+        <AboutDetail></AboutDetail>
+    </b-container>
+
 </div>
 </template>
 <script>
+import Jumbo from '@/components/Jumbo.vue';
+import HeaderRed from '@/components/HeaderRed.vue';
+import AboutDetail from './AboutDetail.vue';
 export default {
-    name:''
+    name: "",
+    components: { Jumbo, HeaderRed, AboutDetail }
 }
 </script>

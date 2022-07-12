@@ -1,3 +1,10 @@
+
+
+
+// Then import Bootstrap and BootstrapVue SCSS files (order is important)
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
 $body-bg:#f9fbfb;
 $navbar-default-bg: white;
 :root{
@@ -147,9 +154,3 @@ border: none;
   color: var(--text-color-gray);
 }
 
-
-
-
-// Then import Bootstrap and BootstrapVue SCSS files (order is important)
-@import 'node_modules/bootstrap/scss/bootstrap.scss';
-@import 'node_modules/bootstrap-vue/src/index.scss';
